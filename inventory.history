@@ -9,6 +9,21 @@ d 775 ./.git/logs/refs/heads
 d 775 ./.git/logs/refs/remotes
 d 775 ./.git/logs/refs/remotes/origin
 d 775 ./.git/objects
+d 775 ./.git/objects/00
+d 775 ./.git/objects/02
+d 775 ./.git/objects/0c
+d 775 ./.git/objects/0f
+d 775 ./.git/objects/15
+d 775 ./.git/objects/2c
+d 775 ./.git/objects/36
+d 775 ./.git/objects/42
+d 775 ./.git/objects/60
+d 775 ./.git/objects/8c
+d 775 ./.git/objects/9f
+d 775 ./.git/objects/b9
+d 775 ./.git/objects/c3
+d 775 ./.git/objects/d5
+d 775 ./.git/objects/f0
 d 775 ./.git/objects/info
 d 775 ./.git/objects/pack
 d 775 ./.git/refs
@@ -16,8 +31,25 @@ d 775 ./.git/refs/heads
 d 775 ./.git/refs/remotes
 d 775 ./.git/refs/remotes/origin
 d 775 ./.git/refs/tags
+f 444 ./.git/objects/00 f287ec4a76cdd1c50da0931b9f12d65aec7a6d 
+f 444 ./.git/objects/02 53046593711f3ca0c0653dc11cfef5d204e2e8 
+f 444 ./.git/objects/0c 83816ccc55b6cf15ffb8188685bba283e1ad43 
+f 444 ./.git/objects/0f fb763f8d101798dc31a2cb21f2524ab7679c7c 
+f 444 ./.git/objects/15 c9516f243f22bfe0d610f2eef210cbe4c33489 
+f 444 ./.git/objects/2c 24075278fc4c08fd2e169f14bf346d1b9c6f47 
+f 444 ./.git/objects/36 2c87f907661fd95299c019f607a967708e61b7 
+f 444 ./.git/objects/36 dec9e231ed989b106a56658bc8d673f5041ee7 
+f 444 ./.git/objects/42 ab26f9ad3d0dbe9da684a4f5d8969455564490 
+f 444 ./.git/objects/60 2a0ba4762b554e795ef53e420c1dd5747d45fc 
+f 444 ./.git/objects/8c c93ffd313c2004b6fc4ccc386c5e23138bf30d 
+f 444 ./.git/objects/9f bcff9f43281142cfa62642e176711ebf7a2628 
+f 444 ./.git/objects/b9 bd23dc1ce9d80ab18137ae8e4adf2319aa7595 
+f 444 ./.git/objects/c3 b29c513c1edb3943bdc6a86517183454fb4922 
+f 444 ./.git/objects/d5 3d7985c55011cf9ac7ec6bd4ac66c69aef4c62 
+f 444 ./.git/objects/f0 e8b71fbfe2ae11a51f563f0998d54dd3913927 
 f 444 ./.git/objects/pack pack-b6dbd7f8fe32f40a8976a985320236c8005cb7ee.idx 
 f 444 ./.git/objects/pack pack-b6dbd7f8fe32f40a8976a985320236c8005cb7ee.pack 
+f 644 . Comparison of US State, Canadian, EU, and UK Privacy Laws for Online Businesses.md 
 f 664 . LICENSE 
 f 664 . README.md 
 f 664 . inventory 
@@ -35,6 +67,7 @@ f 664 . trustworthiness.chatGPT-4o.md
 f 664 . trustworthiness.gemini-flash.md 
 f 664 . trustworthiness.grok3.md 
 f 664 . trustworthiness.prompt 
+f 664 ./.git COMMIT_EDITMSG 
 f 664 ./.git HEAD 
 f 664 ./.git config 
 f 664 ./.git description 
@@ -44,8 +77,10 @@ f 664 ./.git/info exclude
 f 664 ./.git/logs HEAD 
 f 664 ./.git/logs/refs/heads main 
 f 664 ./.git/logs/refs/remotes/origin HEAD 
+f 664 ./.git/logs/refs/remotes/origin main 
 f 664 ./.git/refs/heads main 
 f 664 ./.git/refs/remotes/origin HEAD 
+f 664 ./.git/refs/remotes/origin main 
 f 775 ./.git/hooks applypatch-msg.sample 
 f 775 ./.git/hooks commit-msg.sample 
 f 775 ./.git/hooks fsmonitor-watchman.sample 
