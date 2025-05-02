@@ -1,0 +1,61 @@
+d 775 .
+d 775 ./.git
+d 775 ./.git/branches
+d 775 ./.git/hooks
+d 775 ./.git/info
+d 775 ./.git/logs
+d 775 ./.git/logs/refs
+d 775 ./.git/logs/refs/heads
+d 775 ./.git/logs/refs/remotes
+d 775 ./.git/logs/refs/remotes/origin
+d 775 ./.git/objects
+d 775 ./.git/objects/info
+d 775 ./.git/objects/pack
+d 775 ./.git/refs
+d 775 ./.git/refs/heads
+d 775 ./.git/refs/remotes
+d 775 ./.git/refs/remotes/origin
+d 775 ./.git/refs/tags
+f 444 ./.git/objects/pack pack-b6dbd7f8fe32f40a8976a985320236c8005cb7ee.idx 
+f 444 ./.git/objects/pack pack-b6dbd7f8fe32f40a8976a985320236c8005cb7ee.pack 
+f 664 . LICENSE 
+f 664 . README.md 
+f 664 . inventory 
+f 664 . inventory.history 
+f 664 . inventory.tmp 
+f 664 . self-awareness.chatGPT-4.1.md 
+f 664 . self-awareness.chatGPT-4o-mini.md 
+f 664 . self-awareness.chatGPT-4o.md 
+f 664 . self-awareness.gemini-flash.md 
+f 664 . self-awareness.grok3.md 
+f 664 . self-awareness.prompt 
+f 664 . trustworthiness.chatGPT-4.1.md 
+f 664 . trustworthiness.chatGPT-4o-mini.md 
+f 664 . trustworthiness.chatGPT-4o.md 
+f 664 . trustworthiness.gemini-flash.md 
+f 664 . trustworthiness.grok3.md 
+f 664 . trustworthiness.prompt 
+f 664 ./.git HEAD 
+f 664 ./.git config 
+f 664 ./.git description 
+f 664 ./.git index 
+f 664 ./.git packed-refs 
+f 664 ./.git/info exclude 
+f 664 ./.git/logs HEAD 
+f 664 ./.git/logs/refs/heads main 
+f 664 ./.git/logs/refs/remotes/origin HEAD 
+f 664 ./.git/refs/heads main 
+f 664 ./.git/refs/remotes/origin HEAD 
+f 775 ./.git/hooks applypatch-msg.sample 
+f 775 ./.git/hooks commit-msg.sample 
+f 775 ./.git/hooks fsmonitor-watchman.sample 
+f 775 ./.git/hooks post-update.sample 
+f 775 ./.git/hooks pre-applypatch.sample 
+f 775 ./.git/hooks pre-commit.sample 
+f 775 ./.git/hooks pre-merge-commit.sample 
+f 775 ./.git/hooks pre-push.sample 
+f 775 ./.git/hooks pre-rebase.sample 
+f 775 ./.git/hooks pre-receive.sample 
+f 775 ./.git/hooks prepare-commit-msg.sample 
+f 775 ./.git/hooks update.sample 
+l 777 . util-commit ../Wrangler/util-commit
