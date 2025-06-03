@@ -1,1 +1,44 @@
-../Wrangler/util-commit
+#! /bin/bash
+
+# go to working dir
+cd $(dirname $0)
+
+# remove backup files, debugging states, and dropped edit files
+find . -type f \( -name '#*' -o -name '*~' -o -name '__debug*' \) -print0 | xargs -0 /bin/rm -vf 
+
+# the inventory file is used for installation.
+
+# set up inventory, if it doesn't exist
+test -f inventory || cp /dev/null inventory
+test -f inventory.history || cp /dev/null inventory.history
+
+# generate current inventory for comparison
+( find $(find * -maxdepth 0 -type d -print) \
+  \( -type d -printf "%y %m %p\n" \) -o \
+  \( ! -type d -printf "%y %m %h %f %l\n" \) ) | sort > inventory.tmp
+
+# generate combined temporary inventory.history file for comparison
+sort -u inventory.tmp inventory.history > inventory.history.tmp
+
+for filename in  inventory.history inventory ; do
+    # compare current versus previous; on changes, update.
+    test -f $filename -a -f ${filename}.tmp && diff $filename ${filename}.tmp
+    if [ $? -eq 1 ] ; then
+	mv -v ${filename}.tmp $filename
+    else
+	/bin/rm -vf $filename.tmp
+    fi
+done
+
+# git: add all local files
+find . ! -type l -print0 | xargs -0 git add
+
+if [ $# -le 0 ] ; then
+    git commit -m "committing code $(date)" -e
+else
+    git commit -m "committing code $(date) - automated request
+
+$@
+"
+    git push
+fi

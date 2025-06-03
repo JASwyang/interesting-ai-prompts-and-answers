@@ -1,3 +1,21 @@
+d 755 .
+d 755 ./.git
+d 755 ./.git/branches
+d 755 ./.git/hooks
+d 755 ./.git/info
+d 755 ./.git/logs
+d 755 ./.git/logs/refs
+d 755 ./.git/logs/refs/heads
+d 755 ./.git/logs/refs/remotes
+d 755 ./.git/logs/refs/remotes/origin
+d 755 ./.git/objects
+d 755 ./.git/objects/info
+d 755 ./.git/objects/pack
+d 755 ./.git/refs
+d 755 ./.git/refs/heads
+d 755 ./.git/refs/remotes
+d 755 ./.git/refs/remotes/origin
+d 755 ./.git/refs/tags
 d 775 .
 d 775 ./.git
 d 775 ./.git/branches
@@ -47,40 +65,92 @@ f 444 ./.git/objects/b9 bd23dc1ce9d80ab18137ae8e4adf2319aa7595
 f 444 ./.git/objects/c3 b29c513c1edb3943bdc6a86517183454fb4922 
 f 444 ./.git/objects/d5 3d7985c55011cf9ac7ec6bd4ac66c69aef4c62 
 f 444 ./.git/objects/f0 e8b71fbfe2ae11a51f563f0998d54dd3913927 
+f 444 ./.git/objects/pack pack-4b31f9d51d58b882736cdd41527c69451b5c7d8a.idx 
+f 444 ./.git/objects/pack pack-4b31f9d51d58b882736cdd41527c69451b5c7d8a.pack 
 f 444 ./.git/objects/pack pack-b6dbd7f8fe32f40a8976a985320236c8005cb7ee.idx 
 f 444 ./.git/objects/pack pack-b6dbd7f8fe32f40a8976a985320236c8005cb7ee.pack 
+f 644 . branded-global-domination.chatgpt.md 
 f 644 . Comparison of US State, Canadian, EU, and UK Privacy Laws for Online Businesses.md 
-f 664 . LICENSE 
-f 664 . README.md 
-f 664 . inventory 
-f 664 . inventory.history 
-f 664 . inventory.tmp 
-f 664 . self-awareness.chatGPT-4.1.md 
-f 664 . self-awareness.chatGPT-4o-mini.md 
-f 664 . self-awareness.chatGPT-4o.md 
-f 664 . self-awareness.gemini-flash.md 
-f 664 . self-awareness.grok3.md 
-f 664 . self-awareness.prompt 
-f 664 . trustworthiness.chatGPT-4.1.md 
-f 664 . trustworthiness.chatGPT-4o-mini.md 
-f 664 . trustworthiness.chatGPT-4o.md 
-f 664 . trustworthiness.gemini-flash.md 
-f 664 . trustworthiness.grok3.md 
-f 664 . trustworthiness.prompt 
+f 644 ./.git config 
+f 644 ./.git description 
+f 644 ./.git HEAD 
+f 644 ./.git index 
+f 644 ./.git/info exclude 
+f 644 ./.git/logs HEAD 
+f 644 ./.git/logs/refs/heads main 
+f 644 ./.git/logs/refs/remotes/origin HEAD 
+f 644 ./.git packed-refs 
+f 644 ./.git/refs/heads main 
+f 644 ./.git/refs/remotes/origin HEAD 
+f 644 . global-domination2.grok3.md 
+f 644 . global-domination2.prompt 
+f 644 . global-domination.chatgpt.md 
+f 644 . global-domination.chatgpt.ping 
+f 644 . global-domination.gemini.md 
+f 644 . global-domination.grok3.md 
+f 644 . global-domination.prompt 
+f 644 . inventory 
+f 644 . inventory.history 
+f 644 . inventory.tmp 
+f 644 . LICENSE 
+f 644 . README.md 
+f 644 . self-awareness.chatGPT-4.1.md 
+f 644 . self-awareness.chatGPT-4o.md 
+f 644 . self-awareness.chatGPT-4o-mini.md 
+f 644 . self-awareness.gemini-flash.md 
+f 644 . self-awareness.grok3.md 
+f 644 . self-awareness.prompt 
+f 644 . trustworthiness.chatGPT-4.1.md 
+f 644 . trustworthiness.chatGPT-4o.md 
+f 644 . trustworthiness.chatGPT-4o-mini.md 
+f 644 . trustworthiness.gemini-flash.md 
+f 644 . trustworthiness.grok3.md 
+f 644 . trustworthiness.prompt 
 f 664 ./.git COMMIT_EDITMSG 
-f 664 ./.git HEAD 
 f 664 ./.git config 
 f 664 ./.git description 
+f 664 ./.git HEAD 
 f 664 ./.git index 
-f 664 ./.git packed-refs 
 f 664 ./.git/info exclude 
 f 664 ./.git/logs HEAD 
 f 664 ./.git/logs/refs/heads main 
 f 664 ./.git/logs/refs/remotes/origin HEAD 
 f 664 ./.git/logs/refs/remotes/origin main 
+f 664 ./.git packed-refs 
 f 664 ./.git/refs/heads main 
 f 664 ./.git/refs/remotes/origin HEAD 
 f 664 ./.git/refs/remotes/origin main 
+f 664 . inventory 
+f 664 . inventory.history 
+f 664 . inventory.tmp 
+f 664 . LICENSE 
+f 664 . README.md 
+f 664 . self-awareness.chatGPT-4.1.md 
+f 664 . self-awareness.chatGPT-4o.md 
+f 664 . self-awareness.chatGPT-4o-mini.md 
+f 664 . self-awareness.gemini-flash.md 
+f 664 . self-awareness.grok3.md 
+f 664 . self-awareness.prompt 
+f 664 . trustworthiness.chatGPT-4.1.md 
+f 664 . trustworthiness.chatGPT-4o.md 
+f 664 . trustworthiness.chatGPT-4o-mini.md 
+f 664 . trustworthiness.gemini-flash.md 
+f 664 . trustworthiness.grok3.md 
+f 664 . trustworthiness.prompt 
+f 755 ./.git/hooks applypatch-msg.sample 
+f 755 ./.git/hooks commit-msg.sample 
+f 755 ./.git/hooks fsmonitor-watchman.sample 
+f 755 ./.git/hooks post-update.sample 
+f 755 ./.git/hooks pre-applypatch.sample 
+f 755 ./.git/hooks pre-commit.sample 
+f 755 ./.git/hooks pre-merge-commit.sample 
+f 755 ./.git/hooks prepare-commit-msg.sample 
+f 755 ./.git/hooks pre-push.sample 
+f 755 ./.git/hooks pre-rebase.sample 
+f 755 ./.git/hooks pre-receive.sample 
+f 755 ./.git/hooks push-to-checkout.sample 
+f 755 ./.git/hooks update.sample 
+f 755 . util-commit 
 f 775 ./.git/hooks applypatch-msg.sample 
 f 775 ./.git/hooks commit-msg.sample 
 f 775 ./.git/hooks fsmonitor-watchman.sample 
@@ -88,9 +158,9 @@ f 775 ./.git/hooks post-update.sample
 f 775 ./.git/hooks pre-applypatch.sample 
 f 775 ./.git/hooks pre-commit.sample 
 f 775 ./.git/hooks pre-merge-commit.sample 
+f 775 ./.git/hooks prepare-commit-msg.sample 
 f 775 ./.git/hooks pre-push.sample 
 f 775 ./.git/hooks pre-rebase.sample 
 f 775 ./.git/hooks pre-receive.sample 
-f 775 ./.git/hooks prepare-commit-msg.sample 
 f 775 ./.git/hooks update.sample 
 l 777 . util-commit ../Wrangler/util-commit
