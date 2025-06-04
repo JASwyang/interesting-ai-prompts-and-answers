@@ -9,6 +9,19 @@ d 755 ./.git/logs/refs/heads
 d 755 ./.git/logs/refs/remotes
 d 755 ./.git/logs/refs/remotes/origin
 d 755 ./.git/objects
+d 755 ./.git/objects/01
+d 755 ./.git/objects/0b
+d 755 ./.git/objects/14
+d 755 ./.git/objects/1c
+d 755 ./.git/objects/23
+d 755 ./.git/objects/38
+d 755 ./.git/objects/3c
+d 755 ./.git/objects/3d
+d 755 ./.git/objects/84
+d 755 ./.git/objects/91
+d 755 ./.git/objects/e8
+d 755 ./.git/objects/eb
+d 755 ./.git/objects/fe
 d 755 ./.git/objects/info
 d 755 ./.git/objects/pack
 d 755 ./.git/refs
@@ -16,10 +29,26 @@ d 755 ./.git/refs/heads
 d 755 ./.git/refs/remotes
 d 755 ./.git/refs/remotes/origin
 d 755 ./.git/refs/tags
+f 444 ./.git/objects/01 d8a6167e1e09f1bf58a89d7d8bd3f805722076 
+f 444 ./.git/objects/0b a90432209fb07400b8e2cdc1876acea6408c52 
+f 444 ./.git/objects/14 02f1d38e4f5b6bc970cecdfabe8646565ca5af 
+f 444 ./.git/objects/1c bcd6415a53be9884fb49fd3e219d3872d56395 
+f 444 ./.git/objects/23 a57c29a87a4f58ec7a3076ab0fd2b1d643752a 
+f 444 ./.git/objects/38 0f93e882364759781f047a01ae4ed387d38514 
+f 444 ./.git/objects/3c a0bb79817c0ed0708d0fdb6b6e8b7dd5bf3e40 
+f 444 ./.git/objects/3d 973d7464f7442268efd4658ebf952c4288b0de 
+f 444 ./.git/objects/84 4a5316d7055f54d28a89be1cfb1063a353326e 
+f 444 ./.git/objects/91 1c9dac95469913c22c1f79af1251a164bbe78d 
+f 444 ./.git/objects/e8 62d4777c4aaee9b3431fdd5e9395e5c1ea36cb 
+f 444 ./.git/objects/eb 730040759bf2230de94e124a0cd6b728461662 
+f 444 ./.git/objects/fe 89a82061b4b5629c6182a93b4c8070bdf36740 
 f 444 ./.git/objects/pack pack-4b31f9d51d58b882736cdd41527c69451b5c7d8a.idx 
 f 444 ./.git/objects/pack pack-4b31f9d51d58b882736cdd41527c69451b5c7d8a.pack 
+f 644 . alchemy.grok.md 
+f 644 . alchemy.prompt 
 f 644 . branded-global-domination.chatgpt.md 
 f 644 . Comparison of US State, Canadian, EU, and UK Privacy Laws for Online Businesses.md 
+f 644 ./.git COMMIT_EDITMSG 
 f 644 ./.git config 
 f 644 ./.git description 
 f 644 ./.git HEAD 
@@ -28,9 +57,11 @@ f 644 ./.git/info exclude
 f 644 ./.git/logs HEAD 
 f 644 ./.git/logs/refs/heads main 
 f 644 ./.git/logs/refs/remotes/origin HEAD 
+f 644 ./.git/logs/refs/remotes/origin main 
 f 644 ./.git packed-refs 
 f 644 ./.git/refs/heads main 
 f 644 ./.git/refs/remotes/origin HEAD 
+f 644 ./.git/refs/remotes/origin main 
 f 644 . global-domination2.grok3.md 
 f 644 . global-domination2.prompt 
 f 644 . global-domination.chatgpt.md 
@@ -42,6 +73,7 @@ f 644 . inventory
 f 644 . inventory.history 
 f 644 . inventory.tmp 
 f 644 . LICENSE 
+f 644 . PostAnalytics_WilliamYang_7335400110471696384.xlsx 
 f 644 . README.md 
 f 644 . self-awareness.chatGPT-4.1.md 
 f 644 . self-awareness.chatGPT-4o.md 

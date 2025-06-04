@@ -9,6 +9,19 @@ d 755 ./.git/logs/refs/heads
 d 755 ./.git/logs/refs/remotes
 d 755 ./.git/logs/refs/remotes/origin
 d 755 ./.git/objects
+d 755 ./.git/objects/01
+d 755 ./.git/objects/0b
+d 755 ./.git/objects/14
+d 755 ./.git/objects/1c
+d 755 ./.git/objects/23
+d 755 ./.git/objects/38
+d 755 ./.git/objects/3c
+d 755 ./.git/objects/3d
+d 755 ./.git/objects/84
+d 755 ./.git/objects/91
+d 755 ./.git/objects/e8
+d 755 ./.git/objects/eb
+d 755 ./.git/objects/fe
 d 755 ./.git/objects/info
 d 755 ./.git/objects/pack
 d 755 ./.git/refs
@@ -50,27 +63,43 @@ d 775 ./.git/refs/remotes
 d 775 ./.git/refs/remotes/origin
 d 775 ./.git/refs/tags
 f 444 ./.git/objects/00 f287ec4a76cdd1c50da0931b9f12d65aec7a6d 
+f 444 ./.git/objects/01 d8a6167e1e09f1bf58a89d7d8bd3f805722076 
 f 444 ./.git/objects/02 53046593711f3ca0c0653dc11cfef5d204e2e8 
+f 444 ./.git/objects/0b a90432209fb07400b8e2cdc1876acea6408c52 
 f 444 ./.git/objects/0c 83816ccc55b6cf15ffb8188685bba283e1ad43 
 f 444 ./.git/objects/0f fb763f8d101798dc31a2cb21f2524ab7679c7c 
+f 444 ./.git/objects/14 02f1d38e4f5b6bc970cecdfabe8646565ca5af 
 f 444 ./.git/objects/15 c9516f243f22bfe0d610f2eef210cbe4c33489 
+f 444 ./.git/objects/1c bcd6415a53be9884fb49fd3e219d3872d56395 
+f 444 ./.git/objects/23 a57c29a87a4f58ec7a3076ab0fd2b1d643752a 
 f 444 ./.git/objects/2c 24075278fc4c08fd2e169f14bf346d1b9c6f47 
 f 444 ./.git/objects/36 2c87f907661fd95299c019f607a967708e61b7 
 f 444 ./.git/objects/36 dec9e231ed989b106a56658bc8d673f5041ee7 
+f 444 ./.git/objects/38 0f93e882364759781f047a01ae4ed387d38514 
+f 444 ./.git/objects/3c a0bb79817c0ed0708d0fdb6b6e8b7dd5bf3e40 
+f 444 ./.git/objects/3d 973d7464f7442268efd4658ebf952c4288b0de 
 f 444 ./.git/objects/42 ab26f9ad3d0dbe9da684a4f5d8969455564490 
 f 444 ./.git/objects/60 2a0ba4762b554e795ef53e420c1dd5747d45fc 
+f 444 ./.git/objects/84 4a5316d7055f54d28a89be1cfb1063a353326e 
 f 444 ./.git/objects/8c c93ffd313c2004b6fc4ccc386c5e23138bf30d 
+f 444 ./.git/objects/91 1c9dac95469913c22c1f79af1251a164bbe78d 
 f 444 ./.git/objects/9f bcff9f43281142cfa62642e176711ebf7a2628 
 f 444 ./.git/objects/b9 bd23dc1ce9d80ab18137ae8e4adf2319aa7595 
 f 444 ./.git/objects/c3 b29c513c1edb3943bdc6a86517183454fb4922 
 f 444 ./.git/objects/d5 3d7985c55011cf9ac7ec6bd4ac66c69aef4c62 
+f 444 ./.git/objects/e8 62d4777c4aaee9b3431fdd5e9395e5c1ea36cb 
+f 444 ./.git/objects/eb 730040759bf2230de94e124a0cd6b728461662 
 f 444 ./.git/objects/f0 e8b71fbfe2ae11a51f563f0998d54dd3913927 
+f 444 ./.git/objects/fe 89a82061b4b5629c6182a93b4c8070bdf36740 
 f 444 ./.git/objects/pack pack-4b31f9d51d58b882736cdd41527c69451b5c7d8a.idx 
 f 444 ./.git/objects/pack pack-4b31f9d51d58b882736cdd41527c69451b5c7d8a.pack 
 f 444 ./.git/objects/pack pack-b6dbd7f8fe32f40a8976a985320236c8005cb7ee.idx 
 f 444 ./.git/objects/pack pack-b6dbd7f8fe32f40a8976a985320236c8005cb7ee.pack 
+f 644 . alchemy.grok.md 
+f 644 . alchemy.prompt 
 f 644 . branded-global-domination.chatgpt.md 
 f 644 . Comparison of US State, Canadian, EU, and UK Privacy Laws for Online Businesses.md 
+f 644 ./.git COMMIT_EDITMSG 
 f 644 ./.git config 
 f 644 ./.git description 
 f 644 ./.git HEAD 
@@ -79,9 +108,11 @@ f 644 ./.git/info exclude
 f 644 ./.git/logs HEAD 
 f 644 ./.git/logs/refs/heads main 
 f 644 ./.git/logs/refs/remotes/origin HEAD 
+f 644 ./.git/logs/refs/remotes/origin main 
 f 644 ./.git packed-refs 
 f 644 ./.git/refs/heads main 
 f 644 ./.git/refs/remotes/origin HEAD 
+f 644 ./.git/refs/remotes/origin main 
 f 644 . global-domination2.grok3.md 
 f 644 . global-domination2.prompt 
 f 644 . global-domination.chatgpt.md 
@@ -93,6 +124,7 @@ f 644 . inventory
 f 644 . inventory.history 
 f 644 . inventory.tmp 
 f 644 . LICENSE 
+f 644 . PostAnalytics_WilliamYang_7335400110471696384.xlsx 
 f 644 . README.md 
 f 644 . self-awareness.chatGPT-4.1.md 
 f 644 . self-awareness.chatGPT-4o.md 
